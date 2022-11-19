@@ -128,14 +128,21 @@ img{
 }
 
 #content{
-    margin-top: 45px;
+    margin: auto;
+    padding: 20px;
     height: 230px;
     width: 50%;
-    justify-content: space-between;
-    margin-bottom: 45px;
+    justify-content: space-around;
     display: block;
-
+    font-weight: 200;
+    font-size: 15px;
 }
+
+
+#content.row{
+    padding: 15px;
+}
+
 .column {
   float: left;
   width: 50%;
